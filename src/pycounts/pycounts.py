@@ -4,7 +4,7 @@ from string import punctuation
 
 def load_text(input_file):
     """Load text from a text file and return as a string."""
-    with open(input_file, "r", encoding="utf-8") as file:
+    with open(input_file, "r", encoding="utf-16") as file:
         text = file.read()
     return text
     
